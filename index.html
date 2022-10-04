@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <main>
+      <div class="balance">
+        <div class="balance__header">
+          <div class="balance__sum">
+            <p class="balance__title">My balance</p>
+            <p class="balance__subtitle">$921.48</p>
+          </div>
+          <div class="balance__logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+        </div>
+        <div class="balance__info info">
+          <h2 class="info__title">Spending - Last 7 days</h2>
+          <div class="info__days">
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">mon</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">tue</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col cyan"></div>
+              <div class="info__day-name">wed</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">thu</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">fri</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">sat</div>
+            </div>
+
+            <div class="info__day">
+              <div class="info__cost">10.00</div>
+              <div class="info__col"></div>
+              <div class="info__day-name">sun</div>
+            </div>
+          </div>
+
+          <hr>
+
+          <p class="info__total">Total this month</p>
+          <div class="info__money">
+            <p class="info__total-money">$478.33</p>
+            <div class="info__prev">
+              <p class="info__percent">+2.4%</p>
+              <p class="info__from">from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./src/scrypt.js"></script>
+</body>
+</html>
